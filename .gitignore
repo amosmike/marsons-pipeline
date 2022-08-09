@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+geckodriver_token.yaml
+
+
 # C extensions
 *.so
 
