@@ -145,7 +145,7 @@ class Scraper:
         '''
         output = open("pub_data_result.csv","w", encoding="utf-8")
 
-        for num, line in enumerate(ALL_LINK):
+        for num, line in enumerate(ALL_LINK[:3]):
             line = line.strip()
             name, addr, link = line.split("|")
             link = link.strip("/")
