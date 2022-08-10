@@ -145,7 +145,7 @@ class Scraper:
         '''
         output = open("pub_data_result.csv","w", encoding="utf-8")
 
-        for num, line in enumerate(ALL_LINK[:3]):
+        for num, line in enumerate(ALL_LINK):
             line = line.strip()
             name, addr, link = line.split("|")
             link = link.strip("/")
@@ -158,8 +158,8 @@ class Scraper:
                 self.driver.find_element(By.XPATH, '//*[@id="app"]/div/div/div/section[1]/div/div[2]/div/div/p').click()
                 sleep(1)
             except:
-                item_name = item_price = opentime = 'N/A'
-                entry = name + "," + addr + "," + item_name + "," + item_price + "," + opentime
+                item_name = item_price = opentime = item_cat = 'N/A'
+                entry = name + "," + addr + "," + item_cat + "," + item_name + "," + item_price +  "," + opentime
                 print(entry, file=output)
                 pass
 
@@ -172,15 +172,18 @@ class Scraper:
                 opentime = opentag.get_text().strip()
             else:
                 opentime = "N/A"
-
+            
             ###
-            ITEM_TAG = s1.find_all('li', class_="drawer__item")
-            for item_tag in ITEM_TAG:
-                item_name = item_tag.find("h3",class_="details__name").get_text().strip()
-                item_name = item_name.replace(",", " ")
-                item_price = item_tag.find("p",class_="details__price").get_text().strip()
-                entry = name + "," + addr + "," + item_name + "," + item_price + "," + opentime
-                print(entry, file=output)
+            CAT_TAG = s1.find_all('li', class_="menu__category")
+            for cat_tag in CAT_TAG:
+                item_cat = cat_tag.find("h2",class_="panel__text").get_text()
+                ITEM_TAG = cat_tag.find_all('li', class_="drawer__item")
+                for item_tag in ITEM_TAG:
+                    item_name = item_tag.find("h3",class_="details__name").get_text().strip()
+                    item_name = item_name.replace(",", " ")
+                    item_price = item_tag.find("p",class_="details__price").get_text().strip()
+                    entry = name + "," + addr + "," + item_cat + "," + item_name + "," + item_price +  "," + opentime
+                    print(entry, file=output)
 
         output.close()
 
