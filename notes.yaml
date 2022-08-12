@@ -1,0 +1,3 @@
+city = apiAddress.str.split(',').str[-1]
+
+print(f"{i}---{city}---DONE")
