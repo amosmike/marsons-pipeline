@@ -19,7 +19,7 @@ def get_tabular_data(filepath: str, lineterminator: str = ",") -> pd.DataFrame:
     return df
 
 
-def  clean_price(price: pd.Series) -> pd.Series:
+def  clean_price(item_price: pd.Series) -> pd.Series:
 
     """
     Function taking a pandas series containing prices to remove all characters that are not digits or '.' and convert values to float.
@@ -31,7 +31,7 @@ def  clean_price(price: pd.Series) -> pd.Series:
         pd.Series: pandas series of clean price data in float format
     """
 
-    clean_price = price.replace(to_replace='[^0-9.]', value='', regex=True)
+    clean_price = item_price.replace(to_replace='[^0-9.]', value='', regex=True)
     float_column = pd.to_numeric(clean_price)
     
     return float_column

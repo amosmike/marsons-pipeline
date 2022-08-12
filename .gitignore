@@ -4,6 +4,7 @@ __pycache__/
 *$py.class
 
 geckodriver_token.yaml
+GeoKey.yaml
 
 
 # C extensions

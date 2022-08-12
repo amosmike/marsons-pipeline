@@ -119,13 +119,20 @@ class Scraper:
         NONE
         
         '''
-
-        self.driver.get("https://order.marstons.co.uk/bluejay/order")
-        sleep(2)
-        table_num = self.driver.find_element(By.CLASS_NAME, 'input-form__input')
-        table_num.send_keys(1)
-        self.driver.find_element(By.CLASS_NAME, 'input-form__button-text').click()
-        sleep(2)
+        try: 
+            self.driver.get("https://order.marstons.co.uk/bluejay/order")
+            sleep(2)
+            table_num = self.driver.find_element(By.CLASS_NAME, 'input-form__input')
+            table_num.send_keys(1)
+            self.driver.find_element(By.CLASS_NAME, 'input-form__button-text').click()
+            sleep(2)
+        except:
+            self.driver.get("https://order.marstons.co.uk/vikingslanding/order")
+            sleep(2)
+            table_num = self.driver.find_element(By.CLASS_NAME, 'input-form__input')
+            table_num.send_keys(1)
+            self.driver.find_element(By.CLASS_NAME, 'input-form__button-text').click()
+            sleep(2)
 
     def get_details(self, ALL_LINK):
 
@@ -143,7 +150,7 @@ class Scraper:
         NONE
         
         '''
-        output = open("pub_data_result.csv","w", encoding="utf-8")
+        output = open("pub_data_result_latest.csv","w", encoding="utf-8")
 
         for num, line in enumerate(ALL_LINK):
             line = line.strip()
@@ -176,7 +183,7 @@ class Scraper:
             ###
             CAT_TAG = s1.find_all('li', class_="menu__category")
             for cat_tag in CAT_TAG:
-                item_cat = cat_tag.find("h2",class_="panel__text").get_text()
+                item_cat = cat_tag.find("h2",class_="panel__text").get_text().strip()
                 ITEM_TAG = cat_tag.find_all('li', class_="drawer__item")
                 for item_tag in ITEM_TAG:
                     item_name = item_tag.find("h3",class_="details__name").get_text().strip()
