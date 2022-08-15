@@ -5,7 +5,8 @@ __pycache__/
 
 geckodriver_token.yaml
 GeoKey.yaml
-
+dataframes
+dataframes_grouped
 
 # C extensions
 *.so

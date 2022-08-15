@@ -28,8 +28,8 @@ pub_df['lng'] = None
 
 # API Call and get longitude and latitude values
 for i, row in pub_df.iterrows():
+    address = str(row['address'])
     try:
-        address = str(row['address'])
         if address in mapping:
             lat = mapping[address][0]
             lng = mapping[address][1]

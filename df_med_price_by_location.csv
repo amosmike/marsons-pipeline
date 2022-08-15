@@ -1,0 +1,123 @@
+,pub_name,lat,lng,median_item_price
+0,Viking's Landing Liverpool,53.405472,-2.980539,5.175000000000001
+1,Blaina Wharf Newport,51.578535,-2.980712,4.85
+2,Cherry Laurel Bridgend,51.498888,-3.549007,4.75
+3,Y Cerrig Glas Pembroke Dock,51.693539,-4.939202,4.5
+4,Willow Tree Brynmawr,51.795257,-3.17876,4.9
+5,Clock Works Ystradgynlais,51.76749,-3.77317,4.8
+6,Ten Lock Flight Runcorn,53.335697,-2.7318,4.5
+7,Cotton Mill Newcastle-under-Lyme,53.01247,-2.22949,4.95
+8,Peacock Birchwood,53.414146,-2.527026,4.95
+9,Mulberry Leaves Leek,53.111871,-2.037111,4.85
+10,Inkwell at Lichfield,52.674901,-1.843344,5.0
+11,Sarsen Stones Farnborough,51.293044,-0.791889,5.0
+12,Alders Ollerton,53.200969,-1.027824,4.95
+13,Tawny Owl Newark,39.681656,-75.753614,4.8
+14,Golden Eagle Mansfield,53.126373,-1.151022,4.6
+15,Eighteen Ten Sheffield,53.402497,-1.421661,4.95
+16,Copper Beech Norwich,52.653705,1.180895,4.4
+17,Greenstone Dereham,52.68732,0.935,4.65
+18,Cobblestones March,52.556068,0.073042,4.3
+19,Running Horse Fakenham,52.91572,0.94838,4.95
+20,Apple Cart Peterborough,52.573888,-0.24167,4.6
+21,Spring Tide Lowestoft,52.470109,1.742617,4.65
+22,Honeystone Hunstanton,52.936987,0.486946,4.55
+23,Spread Eagle Corby,52.48763,-0.701543,4.55
+24,Swan & Cygnet Wakefield,53.682567,-1.500047,4.85
+25,Kings Chamber Thorne,53.617545,-0.974235,4.5
+26,Iron Forge Scunthorpe,53.564145,-0.690626,4.5
+27,Bobbin Carrier Bradford,53.735789,-1.722292,4.8
+28,Chestnut Tree Wednesbury,52.55906,-2.03373,7.95
+29,Copperpot Knowsley,53.469705,-2.849645,4.85
+30,Dancing Betty Murton,54.815371,-1.374744,4.65
+31,Fieldfare Chorley,53.653198,-2.629474,4.55
+32,Fly Line Garforth,53.797099,-1.377615,4.65
+33,Flying Squirrel Bradford,53.794157,-1.749478,4.4
+34,Fox Cub Spennymoor,54.705671,-1.566164,4.9
+35,Guelder Rose Southport,53.647599,-3.004175,5.25
+36,Jenny Wren Kent,51.351872,0.717249,5.0
+37,Lincolnshire Otter Gainsborough,53.398289,-0.748648,4.85
+38,Little Castle Markham Vale,53.234978,-1.42436,4.85
+39,Longacre Skelton,54.60708,-1.05928,4.65
+40,March Hare Bishop Auckland,54.664076,-1.675286,4.0
+41,Old Buttercross Oakham,52.669935,-0.728462,5.2
+42,Old Duke Southport,53.63252,-2.969738,4.7
+43,Paisley Pear Brackley,52.042281,-1.137401,5.0
+44,Sandpiper Hull,39.89281,-74.98206,4.45
+45,Kings Arms Newcastle Upon Tyne,54.977092,-1.614206,4.7
+46,Spindle & Thread High Wycombe,51.635482,-0.754331,5.05
+47,Turing Key Bletchley,52.40063,-1.22236,4.75
+48,White Horse Skegness,53.15134,0.33267,4.55
+49,Willows Blackburn,53.727477,-2.446166,4.95
+50,Yorkshire Rose West Yorkshire,53.64248,-1.80858,4.95
+51,Lost Coins Haverfordwest,51.80233,-4.965107,4.574999999999999
+52,Crown Wrexham,53.099689,-2.998082,4.95
+53,Admirals Table Bridgwater,51.162216,-2.986373,4.5
+54,Inn On The Green Paignton,50.437702,-3.56327,4.8
+55,Shah Of Persia Poole,50.724557,-1.968858,4.95
+56,Squirrel Ludlow,52.364457,-2.701272,5.0
+57,Otter Newbridge,53.180124,-6.798214,4.8
+58,Dapple Grey Uttoxeter,52.898032,-1.864921,4.95
+59,Red Kite Caerphilly,51.570546,-3.245635,4.5
+60,King Brychan Merthyr Tydfil,51.749062,-3.378618,4.95
+61,Wagtail Wincanton,51.046476,-2.422238,4.45
+62,Barn Owl Gloucester,51.865371,-2.245819,4.95
+63,Weavers Whistle Northwich,53.271903,-2.458409,4.85
+64,Red Deer Crediton,50.783711,-3.645135,4.75
+65,Sailmaker Gosport,50.815332,-1.159956,4.95
+66,High Orchard Gloucester,51.865371,-2.245819,4.95
+67,Bayberry Swindon,51.561368,-1.785685,4.7
+68,Margam Deer Port Talbot,51.593117,-3.781352,5.0
+69,Pepper Mill Stoke,53.016201,-2.181261,4.65
+70,Chain Runner Livingston,55.879594,-3.525753,4.9
+71,Steam Wheeler Glasgow,55.861147,-4.249989,5.225
+72,Pine Marten Dunbar,55.99359,-2.50954,4.2
+73,Highland Gate Stirling,56.133112,-3.963283,4.8
+74,Old Colliery Edinburgh,55.94834,-3.193272,4.4
+75,Harbour Spring Peterhead,57.486363,-1.807544,4.5
+76,Dunnichen Stone Forfar,56.644503,-2.891974,4.45
+77,Sweet Chestnut Dunfermline,56.06946,-3.460456,4.95
+78,Old Plane Tree Glasgow,55.861147,-4.249989,4.65
+79,Queen Of The Loch Balloch,56.00208,-4.58691,5.1
+80,Red Squirrel Stevenston,55.648659,-4.730174,3.8
+81,Featherbed Shrewsbury,52.707907,-2.753983,5.15
+82,Fallow Field Telford,52.678042,-2.451427,4.7
+83,Holly Blue Pevensey,50.823436,0.285315,4.85
+84,Water Meadow Melksham,51.36816,-2.12843,5.2
+85,Old Gatehouse Kirkintilloch,55.935194,-4.145868,4.5
+86,Spiral Weave Kirkcaldy,56.113454,-3.164682,4.8
+87,Charlie Purley Bognor Regis,50.783497,-0.673072,4.5
+88,Copper Coast Camborne,50.22464,-5.280253,5.1
+89,Station Garden Didcot,51.605691,-1.246792,4.8
+90,Camperdown Elm Dundee,56.472729,-3.05485,4.8
+91,Middlemore Farm Daventry,52.257439,-1.16396,4.75
+92,Conquerors March Hastings,50.855389,0.58247,5.0
+93,Roebuck Market Harborough,52.477711,-0.920858,4.75
+94,Pen Y Bont Farm Mold,53.166162,-3.130167,4.9
+95,Brown Hare Preston,53.736028,-2.730983,4.95
+96,Tappers Harker Long Eaton,52.898572,-1.270813,3.625
+97,New Finney Gardens Bucknall,53.023397,-2.153649,2.5
+98,White Hart Hotel Exeter,50.725647,-3.526661,4.7
+99,Lingfield Farm Middlesbrough,54.522585,-1.218716,4.7
+100,Cobblers Hall Newton Aycliffe,54.629739,-1.580355,4.3
+101,Monkfield Arms Cambourne,52.219122,-0.069672,4.4
+102,White Heifer That Travelled,54.529625,-1.551796,4.4
+103,Cherry Tree Norwich,52.628606,1.29227,2.3
+104,Pheasant Ashford,51.170453,0.871855,4.7
+105,Honey Bee Aylesbury,51.816141,-0.813038,4.55
+106,Orchard Amesbury,42.856507,-70.93352,4.55
+107,Llanwern Bull Newport,51.576395,-2.93785,4.45
+108,Queen Of Hearts Runcorn,53.335697,-2.7318,4.25
+109,Eight-Foot Way Sheffield,53.41202,-1.46434,4.5
+110,Poacher Wigan,53.545719,-2.626462,2.25
+111,White Hart Newmarket,52.243599,0.404344,4.3
+112,Talbot Inn Kempsey,52.140173,-2.219968,4.0
+113,Wellington Hotel Liverpool,53.33703,-2.80459,4.5
+114,Elephant & Castle West Moors,50.824174,-1.888067,5.0
+115,Junction Dorchester,50.718321,-2.435295,4.125
+116,Bull & Bush Torquay,50.465239,-3.521136,4.9
+117,Riddle & Rye Exeter,50.724113,-3.53072,4.85
+118,Cow & Creek Oxford,51.752155,-1.258214,5.45
+119,One 0 Four Kitchen & Cocktail Lounge,50.902535,-1.404189,5.55
+120,Duke & Rye Chichester,50.836486,-0.779172,5.6
+121,White Hart Calow,53.233897,-1.384143,4.25
